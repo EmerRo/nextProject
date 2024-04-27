@@ -1,11 +1,11 @@
 "use client"
 import { useEffect } from 'react'
 
+function Users() {
 useEffect(()=>{
     alert('loaded')
 },[])
 
-function Users() {
   return (
     <div>Users</div>
   )
